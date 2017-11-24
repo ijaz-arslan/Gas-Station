@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" stylesheets="@gasStation_4.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gasStation.GasStation_4Controller">
+   <children>
+      <Label layoutX="5.0" layoutY="6.0" prefHeight="17.0" prefWidth="591.0" text="                 Beverages Section">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="129.0" fitWidth="109.0" layoutX="35.0" layoutY="59.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/Coca-Cola-Can-icon.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="cbtn" layoutX="35.0" layoutY="181.0" mnemonicParsing="false" onAction="#add" text="Coca-Cola-$2.00" />
+      <ImageView fitHeight="120.0" fitWidth="109.0" layoutX="35.0" layoutY="219.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/48500301029.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="tbtn" layoutX="28.0" layoutY="341.0" mnemonicParsing="false" onAction="#add3" text="Tropican Juice-$2.00" />
+      <ImageView fitHeight="109.0" fitWidth="109.0" layoutX="181.0" layoutY="59.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fitHeight="117.0" fitWidth="143.0" layoutX="242.0" layoutY="55.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/16oz-punched-blueraspberry-2013_1.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="rbtn" layoutX="251.0" layoutY="181.0" mnemonicParsing="false" onAction="#add1" text="RockStar-$2.00" />
+      <ImageView fitHeight="133.0" fitWidth="117.0" layoutX="242.0" layoutY="215.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/image001.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="mbtn" layoutX="259.0" layoutY="341.0" mnemonicParsing="false" onAction="#add4" text="Monster-$2.00" />
+      <ImageView fitHeight="109.0" fitWidth="91.0" layoutX="481.0" layoutY="59.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/coca_cola_1_liter__85270_zoom.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="ccbtn" layoutX="477.0" layoutY="181.0" mnemonicParsing="false" onAction="#add2" text="Coca-Cola-$2.00" />
+      <ImageView fitHeight="117.0" fitWidth="97.0" layoutX="497.0" layoutY="219.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/pepsi-lataazul1.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="pbtn" layoutX="491.0" layoutY="341.0" mnemonicParsing="false" onAction="#add5" text="Pepsi-$2.00" />
+      <Button layoutX="18.0" layoutY="20.0" mnemonicParsing="false" onAction="#show1" text="Main Page" />
+   </children>
+</AnchorPane>

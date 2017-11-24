@@ -1,0 +1,16 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+.mainFxmlClass {
+
+}
+.gasArea{
+    
+    -fx-font-size: 50pt;
+    -fx-text-fill: white;
+}
+.quantity{
+    -fx-text-fill: white;
+    
+}

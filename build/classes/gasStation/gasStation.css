@@ -1,0 +1,30 @@
+
+.mainFxmlClass {
+    -fx-background-color: lightgoldenrodyellow;
+}
+.label1{
+    
+    -fx-font-size: 25pt;
+    -fx-text-fill: blue;
+}
+.label2{
+    
+     -fx-font-size: 20pt;
+     -fx-text-fill: red;
+    
+}
+.setRed{
+    -fx-text-fill: red;
+    
+}
+.button{
+   -fx-font-size:18pt;
+    
+}
+.imgHeight{
+    
+    -fx-fill-height: 50pt;
+    
+}
+
+
